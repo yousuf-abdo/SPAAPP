@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPAAPP", "SPAAPP\SPAAPP.csproj", "{4AEE71D7-3F0D-4D7F-96E1-3A1B4997325A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{C5A923B7-F5D5-4994-99E3-3891D018BE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{9265AD0D-683D-4BDF-A895-32263ADCD5DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AEE71D7-3F0D-4D7F-96E1-3A1B4997325A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEE71D7-3F0D-4D7F-96E1-3A1B4997325A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEE71D7-3F0D-4D7F-96E1-3A1B4997325A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEE71D7-3F0D-4D7F-96E1-3A1B4997325A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A923B7-F5D5-4994-99E3-3891D018BE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A923B7-F5D5-4994-99E3-3891D018BE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A923B7-F5D5-4994-99E3-3891D018BE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A923B7-F5D5-4994-99E3-3891D018BE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9265AD0D-683D-4BDF-A895-32263ADCD5DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9265AD0D-683D-4BDF-A895-32263ADCD5DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9265AD0D-683D-4BDF-A895-32263ADCD5DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9265AD0D-683D-4BDF-A895-32263ADCD5DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

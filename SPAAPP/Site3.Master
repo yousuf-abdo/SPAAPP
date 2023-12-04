@@ -1,0 +1,163 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site3.master.cs" Inherits="SPAAPP.Site3" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+     <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"/>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="Temp/plugins/fontawesome-free/css/all.min.css"/>
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="Temp/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css"/>
+  <!-- iCheck -->
+  <link rel="stylesheet" href="Temp/plugins/icheck-bootstrap/icheck-bootstrap.min.css"/>
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="Temp/plugins/jqvmap/jqvmap.min.css"/>
+  <!-- Theme style -->
+  <link rel="stylesheet" href="Temp/dist/css/adminlte.min.css"/>
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="Temp/plugins/overlayScrollbars/css/OverlayScrollbars.min.css"/>
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="Temp/plugins/daterangepicker/daterangepicker.css"/>
+  <!-- summernote -->
+  <link rel="stylesheet" href="Temp/plugins/summernote/summernote-bs4.min.css"/>
+<%--    <style type="text/css">
+        body {background-color:gainsboro; direction:ltr;}
+        .container {direction:ltr;
+        background-color:#fff;
+        padding-right: 0px;
+        padding-left: 0px;
+        width:100%;
+        height:100%;       
+        }
+        .fr-2 { margin-right: 1%;}
+        .fr-m {float:left;margin-left:1%;}
+        .navbar-white 
+        {
+        background-color: aliceblue;
+        border: 1px solid #18fafa;
+        font-size:large;
+        font-weight:bold;
+         }
+        .navbar-collapse.order-3{
+              justify-content:center;
+          }
+        .ml-auto ,.mx-auto{
+            margin-left: unset;
+        }
+        
+        .card-title{float:right;}
+        
+         .dropdown-submenu > a::after
+     {
+     border-left: 0;
+     float: left;
+     margin-left: .5rem;
+     border-right: .3em solid;
+    }
+        .dropdown-submenu > .dropdown-menu {            
+            right: 100%; }
+        .navbar-expand-md .navbar-nav .dropdown-menu {text-align:right;}
+
+    body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    transition: margin-left .3s ease-in-out;
+    margin-left: 0px;
+}
+    </style>--%>
+</head>
+    <body class="hold-transition sidebar-mini layout-footer-fixed">
+<!-- Site wrapper -->
+<div class="">
+  <!-- Navbar -->
+  <nav class=" navbar navbar-white navbar-light">
+    <!-- Left navbar links -->
+     <ul class="navbar-nav">
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../../index3.html" class="nav-link">Home</a>
+      </li>
+      
+    </ul>
+    <ul>
+      
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../../index3.html" class="nav-link">Login</a>
+      </li>
+    </ul>
+
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    
+    <!-- Main content -->
+    <section class="content">
+      <br/><br/>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12">
+            <!-- Default box -->
+            <div class="card">
+              <div class="card-header">
+               
+              </div>
+              <div class="card-body">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+              </div>
+              <!-- /.card-body -->
+              <div class="card-footer">
+                Footer
+              </div>
+              <!-- /.card-footer-->
+            </div>
+            <!-- /.card -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  
+    <div class="float-right">
+      <b>Version</b> 3.1.0-pre
+    </div>
+    <strong>Copyright &copy; 2014-2020 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+        <script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../dist/js/adminlte.min.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="../dist/js/demo.js"></script>
+        </body>
+
+
+<%--<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>--%>
+</html>
